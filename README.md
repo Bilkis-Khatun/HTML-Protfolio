@@ -5,6 +5,104 @@ This repository contains my personal portfolio website built with **HTML, CSS, a
 It showcases my journey as a Computer Science and Engineering student at IUBAT University, my skills, projects, and future goals.
 
 ---
+## 🧩 HTML Features Used (Step by Step)
+
+### 1. Document Declaration
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+✔ Declares the document type as HTML5 and sets language to English.
+
+2. Head Section
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+</head>
+✔ Contains metadata, character encoding, and page title.
+
+3.Header section
+<header>
+  <img src="images/profile.jpg" alt="My Photo" width="150">
+  <h1>Mst. Bilkis Khatun</h1>
+  <p>CSE Student | IUBAT University</p>
+</header>
+
+✔ Displays my name, photo, and short intro.
+
+4. Navigation Menu
+<nav>
+  <a href="#about">About</a> |
+  <a href="#education">Education</a> |
+  <a href="#skills">Skills</a>
+</nav>
+✔ Internal links for smooth navigation.
+✔ Divides content into sections and highlights titles.
+
+5. Section & Mark
+<section id="about">
+  <h2><mark>About Me</mark></h2>
+  <p>Hello! I am Bilkis...</p>
+</section>
+✔ Divides content into sections and highlights titles.
+
+6. Table
+<table border="1">
+  <tr>
+    <th>Year</th><th>Degree</th><th>Institution</th><th>GPA</th>
+  </tr>
+  <tr>
+    <td>2027</td><td>B.Sc in CSE</td><td>IUBAT University</td><td>3.75/4.00</td>
+  </tr>
+</table>
+✔ Shows my education details clearly.
+
+7. List
+<ul>
+  <li>C, C++, Python</li>
+  <li>HTML, CSS, JavaScript</li>
+</ul>
+✔ Lists my skills.
+
+8. Article
+<article>
+  <h3>HTML Universe Showcase</h3>
+  <p>A demo project covering all HTML tags.</p>
+</article>
+✔ Used for individual project descriptions.
+
+9. Form
+<form>
+  <label>Name:</label>
+  <input type="text">
+  <label>Email:</label>
+  <input type="email">
+  <textarea placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
+✔ Contact form for user interaction.
+
+10. Footer
+<footer>
+  <p>© 2026 Mst. Bilkis Khatun | Future AI Developer</p>
+</footer>
+
+#All tages of HTML
+
+Structure tags → header, nav, section, footer
+
+Content tags → h1-h6, p, article, ul/li, table
+
+Media tags → img, video, audio
+
+Interaction tags → form, input, button, textarea
+
+Highlight tags → mark, strong, em
+
+
+
+
+
 
 ## 🎓 Education
 - **B.Sc in CSE** – IUBAT University (2027) | GPA: 3.75/4.00  
